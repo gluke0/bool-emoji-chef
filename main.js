@@ -1,6 +1,6 @@
 const OPENAI = {
     API_BASE_URL: 'https://api.openai.com/v1',
-    API_KEY: '',
+    API_KEY: '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',
     GPT_MODEL: 'gpt-3.5-turbo',
     API_COMPLETIONS: '/chat/completions',
     API_IMAGE: '/images/generations'

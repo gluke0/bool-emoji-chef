@@ -136,8 +136,8 @@ button{
     background-color: white;
     border: 1px solid blue;
     border-radius: 1rem;
+    padding: 1rem;
     animation: pop-effect 0.5s ease-out;
-    
 }
 
 .image{
@@ -168,4 +168,4 @@ button{
 
 .dnone{
     display: none;
-}
+} 
