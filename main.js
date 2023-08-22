@@ -1,6 +1,6 @@
 const OPENAI = {
     API_BASE_URL: 'https://api.openai.com/v1',
-    API_KEY: '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',
+    API_KEY: '',
     GPT_MODEL: 'gpt-3.5-turbo',
     API_COMPLETIONS: '/chat/completions',
     API_IMAGE: '/images/generations'
@@ -91,10 +91,10 @@ Le tue risposte sono solo in formato JSON come questo esempio:
 
     const content = JSON.parse(recipeResponse.choices[0].message.content);
 
-    recipe.innerHTML = `\
-<h2>${content.titolo}</h2>
-<p>${content.ingredienti}</p>
-<p>${content.istruzioni}</p>`;
+    recipe.innerHTML = `
+    <h2>${content.titolo}</h2>
+    <p>${content.ingredienti}</p>
+    <p>${content.istruzioni}</p>`;
 
     modal.classList.remove('dnone');
     loader.classList.add('dnone');
