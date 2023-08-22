@@ -37,6 +37,7 @@ header{
 
 .chef{
     margin-top: 0.9rem;
+    font-size: 4rem;
 }
 
 button{
@@ -46,4 +47,28 @@ button{
     font-size: 1.1rem;
     border: none;
     border-radius: 1rem;
+}
+
+.container{
+    max-width: 560px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.ingredients{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.ingredient{
+    background-color: lightblue;
+    border: 2px solid blue;
+    width: 5rem;
+    height: 5rem;
+    margin-top: 0.5rem;
+    font-size: 2.5rem;
+    line-height: 2;
+    border-radius: 1rem;
+    cursor: pointer;
 }
