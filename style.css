@@ -4,3 +4,46 @@
     box-sizing: border-box;
     font-family: 'Space Grotesk';
 }
+
+body{
+    background-color: pink;
+    color: blue;
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+}
+
+h2{
+    margin-bottom: 0.8rem;
+    font-size: 1.8rem;
+}
+
+p{
+    margin-bottom: 0.8rem;
+}
+
+img{
+    max-width: 100%;
+}
+
+header{
+    background-color: blue;
+    color: pink;
+    padding: 1.5rem;
+}
+
+.chef{
+    margin-top: 0.9rem;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 1rem;
+}
